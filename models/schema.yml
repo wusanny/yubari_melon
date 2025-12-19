@@ -2,3 +2,14 @@ version: 2
 
 models:
   - name: dim_customers
+    config:
+      materialized: table
+      contract:
+        enforced: true
+    columns:
+      - name: customer_id
+        description: This is the primary key
+        data_type: int
+      - name: country_name
+        description: Where this customer lives
+        data_type: varchar
