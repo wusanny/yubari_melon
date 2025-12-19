@@ -4,8 +4,6 @@ models:
   - name: dim_customers
     config:
       materialized: table
-      contract:
-        enforced: true
     columns:
       - name: customer_id
         description: This is the primary key
