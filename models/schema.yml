@@ -3,7 +3,7 @@ version: 2
 models:
   - name: dim_customers
     config:
-      materialized: view
+      materialized: table
       contract:
         enforced: true
     columns:
