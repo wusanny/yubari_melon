@@ -1,1 +1,1 @@
-select 1 as dev_1
+select 1 as dev_2
