@@ -1,1 +1,1 @@
-select 6 as dev_1
+select 6 as dev_0
